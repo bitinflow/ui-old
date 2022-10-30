@@ -2,7 +2,23 @@
 
 ## Goal
 
-The main goal of this package is to provide a clean & simple usage of common components in bitinflow brand.  
+The main goal of this package is to provide a clean & simple usage of common components in bitinflow brand.
+
+## Installation using GitHub
+
+Since this package is not released on npm (yet), we need to add `@bitinflow/ui` as dependency to our `package.json` 
+file manually:
+
+```
+"@bitinflow/ui": "github:bitinflow/ui#main",
+```
+
+Install/Update the dependency:
+
+```bash
+npm install @bitinflow/ui
+```
+
 
 ## Example Skeleton
 
