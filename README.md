@@ -4,7 +4,9 @@
 
 The main goal of this package is to provide a clean & simple usage of common components in bitinflow brand.
 
-## Installation using GitHub
+## Installation
+
+### 1. Add `@bitinflow/ui` to your `package.json` dependencies
 
 Since this package is not released on npm (yet), we need to add `@bitinflow/ui` as dependency to our `package.json` 
 file manually:
@@ -19,6 +21,35 @@ Install/Update the dependency:
 npm install @bitinflow/ui
 ```
 
+### 2. Ensure tailwind is up-to-date
+
+- Add bitinflow colors to your `theme.extend.colors`
+- Add `./node_modules/@bitinflow/ui/**/*.vue` to `content`
+
+```
+const colors = require('tailwindcss/colors')
+const bitinflowColors = require('@bitinflow/ui/colors')
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  ...
+  content: [
+    ...
+    './node_modules/@bitinflow/ui/**/*.vue',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        ...
+        zinc: colors.zinc,
+        primary: bitinflowColors.primary,
+        base: bitinflowColors.base
+      }
+    },
+  },
+}
+
+```
 
 ## Example Skeleton
 
