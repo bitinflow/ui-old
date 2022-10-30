@@ -1,4 +1,4 @@
-import {useMenuStore} from "~/stores/menu";
+import {useMenuStore} from "../stores/menu";
 
 export const useMenu = (data) => {
     const menu = useMenuStore()

@@ -29,8 +29,8 @@
 </template>
 
 <script>
-import {useMenuStore} from "../stores/menu";
 import {mapState} from "pinia";
+import {useMenuStore} from "../stores/menu";
 
 export default {
   name: "ThirdLevelMenu",
