@@ -19,8 +19,10 @@
 </template>
 
 <script>
+import SecondLevelLink from "./SecondLevelLink";
 export default {
   name: "SecondLevelMenu",
+  components: {SecondLevelLink},
   props: {
     items: {
       type: Array,

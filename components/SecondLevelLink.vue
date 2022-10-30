@@ -5,8 +5,10 @@
 </template>
 
 <script>
+import Button from "./Button";
 export default {
   name: "SecondLevelLink",
+  components: {Button},
   props: {
     icon: {
       type: String,

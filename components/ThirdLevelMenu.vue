@@ -31,9 +31,11 @@
 <script>
 import {mapState} from "pinia";
 import {useMenuStore} from "../stores/menu";
+import Button from "./Button";
 
 export default {
   name: "ThirdLevelMenu",
+  components: {Button},
   data() {
     return {
       link: ''
