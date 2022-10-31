@@ -1,4 +1,4 @@
-let colors = {
+const colors = {
     primary: {
         DEFAULT: '#00BFA5',
         '50': '#A6FFF3',
@@ -22,4 +22,4 @@ let colors = {
     },
 };
 
-module.exports = (colors.__esModule ? colors : { default: colors }).default
+export default colors

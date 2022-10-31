@@ -19,7 +19,8 @@
 </template>
 
 <script>
-import SecondLevelLink from "./SecondLevelLink";
+import SecondLevelLink from "./SecondLevelLink.vue";
+
 export default {
   name: "SecondLevelMenu",
   components: {SecondLevelLink},

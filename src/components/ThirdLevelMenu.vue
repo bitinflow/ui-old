@@ -31,7 +31,7 @@
 <script>
 import {mapState} from "pinia";
 import {useMenuStore} from "../stores/menu";
-import Button from "./Button";
+import Button from "./Button.vue";
 
 export default {
   name: "ThirdLevelMenu",

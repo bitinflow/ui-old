@@ -1,0 +1,23 @@
+.nuxt-link-active[data-v-42eb52e3] {
+  background: #00BFA5;
+}
+
+.nuxt-link-active[data-v-42eb52e3]:hover {
+  background: #004F44;
+}
+
+.nuxt-link-active[data-v-4c63018c] {
+  background: #f3f3f3;
+}
+
+.dark .nuxt-link-active[data-v-4c63018c] {
+  background: #464649;
+}
+
+.nuxt-link-active[data-v-05ca9b6f] {
+  background: #f3f3f3;
+}
+
+.dark .nuxt-link-active[data-v-05ca9b6f] {
+  background: #464649;
+}
