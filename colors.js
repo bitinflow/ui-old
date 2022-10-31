@@ -22,4 +22,4 @@ const colors = {
     },
 };
 
-export default colors
+module.exports = (colors.__esModule ? colors : { default: colors }).default

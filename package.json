@@ -2,27 +2,11 @@
   "name": "@bitinflow/ui",
   "version": "0.0.1",
   "description": "bitinflow UI Kit",
-  "main": "dist/library.cjs",
-  "module": "dist/library.mjs",
-  "type": "module",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "rollup -c"
-  },
   "author": "René Preuß <rene@bitinflow.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "@nuxt/kit": "^3.0.0-rc.12",
     "pinia": ">=2.0.23",
     "vue": "^3.2.41"
-  },
-  "devDependencies": {
-    "rollup": "^3.2.3",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-scss": "^3.0.0",
-    "rollup-plugin-vue": "^6.0.0",
-    "sass": "^1.55.0"
   }
 }

@@ -12,7 +12,7 @@
       <div class="container mx-auto px-4 lg:px-16">
         <div class="hidden xl:block space-x-4">
           <Button v-for="link in thirdLevelLinks">
-            <i :class="link.icon" class="icon"></i> {{ link.name }}
+            <i :class="['far', link.icon]" class="icon"></i> {{ link.name }}
           </Button>
         </div>
 
@@ -30,7 +30,7 @@
 
 <script>
 import {mapState} from "pinia";
-import {useMenuStore} from "../stores/menu";
+import {useMenuStore} from "../stores/menu.js";
 import Button from "./Button.vue";
 
 export default {
